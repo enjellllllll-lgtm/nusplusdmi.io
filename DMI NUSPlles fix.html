@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nusplash — Landing Prototype</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS External -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="LOGO DMI fix.png" alt="Nusplash Logo" />
+        <div style="font-weight:700; color:var(--teal); font-size:18px">Nusplash</div>
+      </div>
+
+      <nav>
+        <button class="mobile-toggle" id="menuBtn" aria-label="toggle menu">☰</button>
+        <ul id="navList">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang kami</a></li>
+          <li><a href="#produk">Produk</a></li>
+          <li><a href="#perjalanan">Perjalanan</a></li>
+          <li><a class="nav-cta" href="#order">Pesan sekarang</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="left fade-in">
+        <h1>Segar alami nya<br><strong>NUSPLASH</strong></h1>
+        <p>Segar alami, terang nusantara — air mineral seimbang yang dikemas dekat sumber tanpa disentuh tangan manusia. Nikmati hidrasi sehat sehari-hari.</p>
+        <div class="cta">
+          <a class="btn" href="#produk">Lihat Produk</a>
+          <a class="btn ghost" href="#about">Tentang Kami</a>
+        </div>
+      </div>
+
+      <div class="right fade-in" style="animation-delay:.12s">
+        <img class="bottle" src="BOTOL_NUSPLASH_copy[1]-01.png" alt="Bottle" style="width:320px">
+      </div>
+    </section>
+
+    <!-- Kisah Kami -->
+    <section class="story" id="about">
+      <div class="text fade-in">
+        <h2>Kisah kami</h2>
+        <p>Nusplash berasal dari sumber mata air pegunungan terpilih yang melalui ratusan eksplorasi untuk mendapatkan sumber terbaik yang kaya mineral. Dikemas langsung di sumbernya menggunakan teknologi Mineral Protection System tanpa tersentuh tangan manusia untuk menjaga kualitas air dan mineralnya tetap utuh sampai ke tangan Anda.</p>
+      </div>
+      <div class="image fade-in" style="animation-delay:.1s">
+        <img src="anak.png" alt="Anak minum">
+      </div>
+    </section>
+
+    <!-- Why choose -->
+    <section class="why" id="produk">
+      <h2 class="fade-in">Mengapa Pilih Nusplash?</h2>
+      <p class="lead fade-in" style="animation-delay:.06s">Air mineral murni dengan mineral esensial, dikemas higienis di sumber, dan dilindungi agar kualitasnya tetap terjaga sampai di tanganmu.</p>
+
+      <div class="features">
+        <div class="feature fade-in stagger-1">
+          <div class="drop">
+            <div class="bg">
+              <img src="BOTOL_NUSPLASH_copy[1]-01.png" alt="bottle small">
+            </div>
+          </div>
+          <h3>Mengandung Mineral Esensial Seimbang</h3>
+          <p>Mineral penting seperti Zn, Ca, Fe, Na terpenuhi untuk kebutuhan harian.</p>
+        </div>
+
+        <div class="feature fade-in stagger-2">
+          <div class="drop">
+            <div class="bg">
+              <img src="BOTOL_NUSPLASH_copy[1]-01.png" alt="bottle medium">
+            </div>
+          </div>
+          <h3>Proteksi Berlapis</h3>
+          <p>Melindungi mineral esensialnya dengan 3 level proteksi berlapis.</p>
+        </div>
+
+        <div class="feature fade-in stagger-3">
+          <div class="drop">
+            <div class="bg">
+              <img src="BOTOL_NUSPLASH_copy[1]-kecil.png" alt="bottle small 2">
+            </div>
+          </div>
+          <h3>Dikemas di Sumbernya</h3>
+          <p>Pengemasan otomatis tanpa tersentuh tangan manusia untuk sanitasi optimal.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Perjalanan Nusplash -->
+    <section class="journey" id="perjalanan">
+      <h2 class="fade-in">Perjalanan Nusplash</h2>
+      <div class="journey-card card fade-in" style="animation-delay:.08s">
+        <img src="Indonesia Nature.jpg" alt="gunung">
+        <img src="download (35).jpg" alt="sungai">
+        <img src="pabrik.jpg" alt="pabrik">
+        <div class="placeholder"></div>
+      </div>
+    </section>
+
+    <!-- Timeline / Habit -->
+    <section class="timeline-wrap" id="reminder">
+      <div class="fade-in" style="animation-delay:.06s">
+        <h2 style="text-align:center; font-size:36px; margin-bottom:8px">Biasakan dirimu untuk minum air</h2>
+        <p style="text-align:center; color:var(--muted); max-width:900px; margin:0 auto 18px">Menciptakan kebiasaan agar minum air teratur setiap harinya tidak bisa terjadi begitu saja. Pasang alarm pengingat di ponselmu di jam-jam tertentu.</p>
+      </div>
+      <div class="gedung fade-in" style="animation-delay:.08s">
+        <img src="gedung nusplash fixx.png" alt="gedung">
+      </div>
+    </section>
+
+    <!-- Calories compare -->
+    <section class="calories" id="kalori">
+      <div class="left fade-in">
+        <h2>Perhatikan jumlah kalori minumanmu</h2>
+        <p>Mulai perhatikan kalori dari minuman yang kamu minum untuk menerapkan pola hidup yang lebih sehat. Nusplash memiliki 0 kalori, pilihan terbaik untuk hidrasi tanpa tambahan gula.</p>
+      </div>
+
+      <div class="right fade-in" style="animation-delay:.08s">
+        <div class="compare">
+          <div class="item">
+            <img src="teh.png" alt="minum siap saji">
+            <div class="cal-bubble">120 Kalori</div>
+            <div style="margin-top:8px; color:var(--muted); font-size:13px">Minuman siap saji</div>
+          </div>
+
+          <div class="item">
+            <img src="mogumogu.png" alt="minuman kemasan">
+            <div class="cal-bubble">100 Kalori</div>
+            <div style="margin-top:8px; color:var(--muted); font-size:13px">Minuman kemasan</div>
+          </div>
+
+          <div class="item">
+            <img src="BOTOL_NUSPLASH_copy[1]-01.png" alt="nusplash">
+            <div class="cal-bubble highlight">0 Kalori</div>
+            <div style="margin-top:8px; color:var(--muted); font-size:13px">Nusplash</div>
+          </div>
+
+          <div class="item">
+            <img src="cola.png" alt="minuman soda">
+            <div class="cal-bubble">140 Kalori</div>
+            <div style="margin-top:8px; color:var(--muted); font-size:13px">Minuman soda</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Simple order block -->
+    <section id="order" style="padding:28px 0">
+      <div style="max-width:780px; margin:0 auto; background:var(--card); padding:20px; border-radius:14px">
+        <h3 style="margin-top:0">Pesan Sekarang</h3>
+        <form onsubmit="event.preventDefault(); alert('Terima kasih! Pesanan demo diterima.');">
+          <div style="display:flex; gap:12px; flex-wrap:wrap">
+            <input style="flex:1; padding:12px; border-radius:8px; border:1px solid rgba(0,0,0,0.06)" type="text" placeholder="Nama lengkap" required>
+            <input style="flex:1; padding:12px; border-radius:8px; border:1px solid rgba(0,0,0,0.06)" type="tel" placeholder="No. Whatsapp" required>
+          </div>
+          <div style="display:flex; gap:12px; margin-top:12px; flex-wrap:wrap">
+            <select style="padding:12px; border-radius:8px; border:1px solid rgba(0,0,0,0.06); flex:1" required>
+              <option value="">Pilih Produk</option>
+              <option>Botol 600 ml</option>
+              <option>Botol 1500 ml</option>
+            </select>
+            <input style="width:120px; padding:12px; border-radius:8px; border:1px solid rgba(0,0,0,0.06)" type="number" min="1" value="1" required>
+            <button class="btn" style="min-width:160px">Kirim Pesanan</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      &copy; <span id="year"></span> Nusplash — SMK Plus Pelita Nusantara
+    </footer>
+  </div>
+
+  <!-- JavaScript External -->
+  <script src="script.js"></script>
+</body>
+</html>
